@@ -1,6 +1,31 @@
-<?page title="Auto Generated index.zul"?>
-<window title="Hello World!!" border="normal" width="200px">
+<?page title="Noark 5"?>
+<window id="wnd" zclass="z-window-overlapped" border="normal"
+	width="100%" height="100%" apply="test.Methods">
+<grid width="450px">
+        <columns>
+            <column label="Option" width="100px" />
+            <column label="Input" />
+        </columns>
+        <rows>
+            <row>
+                Brukernavn :
+                <hlayout>
+                    <textbox id="txtUsername" width="150px" value=""/>
+                    <separator orient="vertical" spacing="3px" />
+                </hlayout>
+            </row>
+            <row>
+                Passord :
+                <hlayout>
+                    <textbox id="txtPassword" value="" width="150px" />
+                    <separator orient="vertical" spacing="3px" />
+                </hlayout>
+            </row>           
+        </rows>
+    </grid>
 
-<label value="You are using: ${desktop.webApp.version}"/>
+    <vlayout>
+        <button id="btnSubmit" label="Logg inn" />
+    </vlayout>
 
 </window>
