@@ -14,6 +14,6 @@ public class Methods extends GenericForwardComposer {
 
   	public void onClick$btnSubmit() throws InterruptedException	{
   		
-  		Messagebox.show("Brukernavnet ditt er "+ txtUsername.getText() + " og passordet er " + txtPassword.getText());
+  		Messagebox.show("Ditt brukernavn og passord er "+ txtUsername.getText() + " og " + txtPassword.getText());
   	}
 }
