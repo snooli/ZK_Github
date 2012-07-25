@@ -1,0 +1,43 @@
+<window id="view_document_wnd" title="View Document" border="normal"
+	width="420px" closable="true">
+
+	<grid width="100%">
+		<columns sizable="false">
+			<column width="40%" />
+			<column width="60%" />
+		</columns>
+
+		<rows>
+			<row>
+				<label value="Title" />
+				<label id="documentTitle" width="90%"
+					style="font-weight:bold" />
+			</row>
+
+			<row>
+				<label value="Description" />
+				<label id="documentDescription" width="90%"
+					style="font-weight:bold" />
+			</row>
+
+			<row>
+				<label value="Created" />
+				<label id="documentCreated" width="90%"
+					style="font-weight:bold" />
+			</row>
+
+			<row>
+				<label value="Attachment" />
+				<hbox>
+					<button label="Download"
+						apply="n5.ui.listeners.buttons.modwnd.DocumentDownloadComposer" />
+					<label id="documentDescriptionSystemId"
+						visible="false" />
+				</hbox>
+			</row>
+
+		</rows>
+
+	</grid>
+
+</window>

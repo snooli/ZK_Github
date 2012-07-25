@@ -1,0 +1,51 @@
+<window id="add_document_wnd" title="Add Document" border="normal"
+	width="420px" closable="true">
+
+
+
+	<grid width="100%">
+		<columns sizable="false">
+			<column width="40%" />
+			<column width="60%" />
+		</columns>
+
+		<rows>
+			<row>
+				<label value="Title" />
+				<textbox id="documentTitle" maxlength="25" constraint=""
+					width="90%" />
+			</row>
+
+			<row>
+				<label value="Description" />
+				<textbox id="documentDescription" maxlength="150"
+					rows="2" constraint="" width="90%" />
+			</row>
+
+			<row>
+				<label value="Attachment" />
+				<hbox>
+					<button id="attachBtn" label="Attach"
+						apply="n5.ui.listeners.buttons.modwnd.DocumentUploadComposer" />
+					<label id="displayedFileName" visible="false"
+						style="font-weight:bold" />
+				</hbox>
+
+
+				<label id="fileName" visible="false" />
+				<label id="extension" visible="false" />
+				<label id="contentType" visible="false" />
+				<label id="tempFile" visible="false" />
+			</row>
+
+			<row spans="2" align="left">
+				<button id="newDocumentConfirmBtn" label="OK"
+					autodisable="self"
+					apply="n5.ui.listeners.buttons.modwnd.ConfirmAddDocumentComposer" />
+			</row>
+
+		</rows>
+
+	</grid>
+
+</window>

@@ -1,0 +1,49 @@
+<window id="add_record_wnd" title="Add Record" border="normal"
+	width="420px" closable="true">
+
+	<grid width="100%">
+		<columns sizable="false">
+			<column width="40%" />
+			<column width="60%" />
+		</columns>
+
+		<rows>
+			<row>
+				<label value="Title" />
+				<textbox id="recordTitle" maxlength="25" constraint=""
+					width="90%" />
+			</row>
+
+			<row>
+				<label value="Public title" />
+				<textbox id="recordOfficialTitle" maxlength="25"
+					constraint="" width="90%" />
+			</row>
+
+			<row>
+				<label value="Description" />
+				<textbox id="recordDescription" maxlength="150" rows="2"
+					constraint="" width="90%" />
+			</row>
+
+			<row>
+				<label value="Medium" />
+				<combobox id="recordMedium" width="90%"
+					readonly="true">
+					<comboitem label="electronic" value="electronic" />
+					<comboitem label="physical" value="physical" />
+					<comboitem label="mixed" value="mixed" />
+				</combobox>
+			</row>
+
+			<row spans="2" align="left">
+				<button id="newSeriesConfirmBtn" label="OK"
+					autodisable="self"
+					apply="n5.ui.listeners.buttons.modwnd.ConfirmAddRecordComposer" />
+			</row>
+
+		</rows>
+
+	</grid>
+
+</window>
