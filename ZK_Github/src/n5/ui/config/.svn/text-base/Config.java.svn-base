@@ -1,0 +1,58 @@
+package n5.ui.config;
+
+import java.io.File;
+
+import org.apache.commons.configuration.XMLConfiguration;
+
+public class Config {
+
+	private static Config instance;
+
+	private String fondsCreatorId;
+	private String fondsCreatorName;
+	private String description;
+
+	private Config(String fondsCreatorId, String fondsCreatorName,
+			String description) {
+
+		this.fondsCreatorId = fondsCreatorId;
+		this.fondsCreatorName = fondsCreatorName;
+		this.description = description;
+	}
+
+	public static void init(File configFile) {
+
+		if (instance == null) {
+			try {
+				XMLConfiguration config = new XMLConfiguration(configFile);
+
+				String fondsCreatorId = config.getString("fondsCreatorId");
+				String fondsCreatorName = config.getString("fondsCreatorName");
+				String description = config.getString("description");
+
+				instance = new Config(fondsCreatorId, fondsCreatorName,
+						description);
+
+			} catch (Exception ex) {
+				ex.printStackTrace();
+			}
+		}
+	}
+
+	public static Config get() {
+		return instance;
+	}
+
+	public String getFondsCreatorId() {
+		return fondsCreatorId;
+	}
+
+	public String getFondsCreatorName() {
+		return fondsCreatorName;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/noark/!svn/ver/223/dev/noark5/web/n5.ui/src/n5/ui/comparators
+END
+SeriesComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/noark/!svn/ver/222/dev/noark5/web/n5.ui/src/n5/ui/comparators/SeriesComparator.java
+END
+FondsComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/noark/!svn/ver/222/dev/noark5/web/n5.ui/src/n5/ui/comparators/FondsComparator.java
+END
+RecordComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/noark/!svn/ver/223/dev/noark5/web/n5.ui/src/n5/ui/comparators/RecordComparator.java
+END
+FileComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/noark/!svn/ver/222/dev/noark5/web/n5.ui/src/n5/ui/comparators/FileComparator.java
+END
+DocumentComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/noark/!svn/ver/223/dev/noark5/web/n5.ui/src/n5/ui/comparators/DocumentComparator.java
+END

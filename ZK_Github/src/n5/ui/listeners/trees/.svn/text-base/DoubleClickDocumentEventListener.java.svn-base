@@ -1,0 +1,53 @@
+package n5.ui.listeners.trees;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import n5.ui.n5client.N5Client;
+import n5ic.module.base.entitybeans.DocumentDescriptionBean;
+
+import org.zkoss.zk.ui.Executions;
+import org.zkoss.zk.ui.event.Event;
+import org.zkoss.zk.ui.event.EventListener;
+import org.zkoss.zul.api.Label;
+import org.zkoss.zul.api.Treeitem;
+import org.zkoss.zul.api.Window;
+
+public class DoubleClickDocumentEventListener implements EventListener {
+
+	@Override
+	public void onEvent(Event event) throws Exception {
+
+		// get the clicked item
+		Treeitem clickedItem = (Treeitem) event.getTarget();
+
+		// get the document description
+		DocumentDescriptionBean dd = N5Client.get().getSearchService()
+				.documentDescriptionFindBySystemId(clickedItem.getId());
+
+		// create a new modal window
+		Window wnd = (Window) Executions.createComponents("view_document.zul",
+				null, null);
+
+		// store the document description ID
+		((Label) wnd.getFellow("documentDescriptionSystemId")).setValue(dd
+				.getSystemId());
+
+		// display the title
+		((Label) wnd.getFellow("documentTitle")).setValue(dd.getTitle());
+
+		// display the description
+		((Label) wnd.getFellow("documentDescription")).setValue(dd
+				.getDescription());
+
+		// display the creation date
+		Date creationDate = dd.getCreatedDate();
+		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+		((Label) wnd.getFellow("documentCreated")).setValue(format
+				.format(creationDate));
+
+		// open the window
+		wnd.doModal();
+
+	}
+}

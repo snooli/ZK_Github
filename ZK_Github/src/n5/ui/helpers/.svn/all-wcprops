@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/noark/!svn/ver/240/dev/noark5/web/n5.ui/src/n5/ui/helpers
+END
+ModalWindowHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/noark/!svn/ver/228/dev/noark5/web/n5.ui/src/n5/ui/helpers/ModalWindowHelper.java
+END
+FilesUIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/noark/!svn/ver/228/dev/noark5/web/n5.ui/src/n5/ui/helpers/FilesUIHelper.java
+END
+SeriesUIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/noark/!svn/ver/228/dev/noark5/web/n5.ui/src/n5/ui/helpers/SeriesUIHelper.java
+END
+FondsUIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/noark/!svn/ver/240/dev/noark5/web/n5.ui/src/n5/ui/helpers/FondsUIHelper.java
+END
+RecordsUIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/noark/!svn/ver/228/dev/noark5/web/n5.ui/src/n5/ui/helpers/RecordsUIHelper.java
+END

@@ -8,5 +8,92 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dots.clb.common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dots.export"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dots.module.base"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/antlr-3.3-complete.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-compress-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/utils4j-0.6.7.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/workspace/Libraries/wax_1.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zcommon.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zel.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zhtml.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zk.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkbind.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkex.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkplus.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zml.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zul.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zweb.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/bsh.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/commons-collections.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/commons-io.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/Filters.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/itext.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/jasperreports.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/jcommon.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/jfreechart.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/jxl.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/ext/poi.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkforge/ckez.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkforge/sapphire.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkforge/silvertail.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/lib/zkforge/timelinez.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zcommon-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zel-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zhtml-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zk-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zkbind-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zkplus-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zul-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-6.0.2/dist/src/zweb-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zcommon.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zcommons-el.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zhtml.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zk.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkex.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkplus.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zml.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zul.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zweb.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/bsh.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/commons-collections.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/commons-io.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/Filters.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/groovy.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/itext.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/jasperreports.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/jcommon.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/jfreechart.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/jruby.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/js.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/jxl.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/jython.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/ext/poi.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkforge/breeze.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkforge/ckez.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkforge/fckez.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkforge/sapphire.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkforge/silvertail.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/lib/zkforge/timelinez.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zcommon-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zhtml-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zk-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zkplus-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zul-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zweb-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/n5.clb.common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/N5ExportTool"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/n5ic.module.base"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
