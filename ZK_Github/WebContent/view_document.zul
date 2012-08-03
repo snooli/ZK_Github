@@ -30,7 +30,7 @@
 				<label value="Attachment" />
 				<hbox>
 					<button label="Download"
-						apply="n5.ui.listeners.buttons.modwnd.DocumentDownloadComposer" />
+						apply="dots.ui.listeners.buttons.modwnd.DocumentDownloadComposer" />
 					<label id="documentDescriptionSystemId"
 						visible="false" />
 				</hbox>

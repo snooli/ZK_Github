@@ -32,8 +32,7 @@
 
 			<row spans="2" align="left">
 				<button id="newFondsConfirmBtn" label="OK"
-					autodisable="self"
-					apply="n5.ui.listeners.buttons.modwnd.ConfirmAddFondsComposer" />
+					autodisable="self"/>
 			</row>
 
 		</rows>

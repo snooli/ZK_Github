@@ -33,7 +33,7 @@
 			<row spans="2" align="left">
 				<button id="newSeriesConfirmBtn" label="OK"
 					autodisable="self"
-					apply="n5.ui.listeners.buttons.modwnd.ConfirmAddSeriesComposer" />
+					apply="dots.ui.listeners.buttons.modwnd.ConfirmAddSeriesComposer" />
 			</row>
 
 		</rows>

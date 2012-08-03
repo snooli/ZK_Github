@@ -1,0 +1,14 @@
+<zk>
+  <borderlayout width="100%" height="100%">
+  	<north border="none" size="16%" class="header">
+      <include src="header.zul"/>
+    </north>
+    <center border="none" flex="true" class="center">
+      <hlayout>   
+        <div hflex="1" vflex="1" class="content">
+          <include src="content.zul" />
+        </div>        
+      </hlayout>
+    </center>
+  </borderlayout>
+</zk>

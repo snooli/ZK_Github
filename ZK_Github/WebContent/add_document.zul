@@ -26,7 +26,7 @@
 				<label value="Attachment" />
 				<hbox>
 					<button id="attachBtn" label="Attach"
-						apply="n5.ui.listeners.buttons.modwnd.DocumentUploadComposer" />
+						apply="dots.ui.listeners.buttons.modwnd.DocumentUploadComposer" />
 					<label id="displayedFileName" visible="false"
 						style="font-weight:bold" />
 				</hbox>
@@ -41,7 +41,7 @@
 			<row spans="2" align="left">
 				<button id="newDocumentConfirmBtn" label="OK"
 					autodisable="self"
-					apply="n5.ui.listeners.buttons.modwnd.ConfirmAddDocumentComposer" />
+					apply="dots.ui.listeners.buttons.modwnd.ConfirmAddDocumentComposer" />
 			</row>
 
 		</rows>

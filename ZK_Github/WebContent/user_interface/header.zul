@@ -1,0 +1,5 @@
+<vlayout>
+	<separator class="header-bar" />
+	<label class="header-title1" value="Noark 5" />
+</vlayout>
+

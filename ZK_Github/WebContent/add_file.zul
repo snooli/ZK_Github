@@ -38,7 +38,7 @@
 			<row spans="2" align="left">
 				<button id="newFileConfirmBtn" label="OK"
 					autodisable="self"
-					apply="n5.ui.listeners.buttons.modwnd.ConfirmAddFileComposer" />
+					apply="dots.ui.listeners.buttons.modwnd.ConfirmAddFileComposer" />
 			</row>
 
 		</rows>

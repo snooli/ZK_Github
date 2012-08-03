@@ -1,0 +1,73 @@
+<style><![CDATA[
+                
+
+.header {
+    background-color: #165379;
+    color: white;
+    padding-left: 103px;
+}
+.header-bar {
+    height: 20px
+}
+.header-title1 {
+    color: white;
+    font-family: Tahoma;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.content {
+	background-color: #165379;
+	padding-left: 4%;
+	padding-top: 1%;
+}
+
+.content-frame {
+	width: 220px;
+	height: 350px;
+	border: solid 5px #fff;
+	-moz-border-radius: 3px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.in-cont-head {
+	background-color: #165379;	
+}
+
+
+// Buttons
+
+.btndiv .z-button-cm {
+    background : transparent url('') no-repeat 0 0 ;
+}
+.btndiv table {
+    width: 100%;
+    height: 100%;
+}
+.myWhite {
+    width: 93px;
+    height: 33px;
+    height: 31px\9;
+}
+.myWhite .z-button-cm {
+    height: 26px;
+    color: black;
+}
+
+.z-button-focus .z-button-cm {
+    background-position: 0 -52px
+}
+.z-button-over .z-button-cm {
+    background-position: 0 -26px
+    background: blue;
+}
+.z-button-clk .z-button-cm {
+    background-position: 0 -79px                    
+}
+
+
+
+
+
+]]></style>

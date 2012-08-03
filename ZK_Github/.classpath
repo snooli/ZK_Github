@@ -92,8 +92,6 @@
 	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zkplus-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zul-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/zkpe-bin-eval-5.0.10/dist/src/zweb-sources.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/n5.clb.common"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/N5ExportTool"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/n5ic.module.base"/>
+	<classpathentry kind="lib" path="/Users/Snorre/Documents/opt/wax_1.0.5.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
