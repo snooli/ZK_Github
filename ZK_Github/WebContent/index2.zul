@@ -1,11 +1,13 @@
 <?page title="Noark 5"?>
+<?init class="n5.ui.app.InitGUI" ?>
 <window id="wnd" zclass="z-window-overlapped" border="normal"
 	width="100%" height="100%">
 
 	<hlayout>
 
 		<vlayout>
-			<tree width="220px" height="350px" zclass="z-dottree">
+			<tree width="220px" height="350px" zclass="z-dottree"
+				apply="n5.ui.listeners.trees.SelectFondsComposer">
 				<treecols>
 					<treecol label="Fonds" />
 				</treecols>
@@ -13,18 +15,21 @@
 				<treefoot>
 					<treefooter>
 						<button id="newFondsBtn" label="Add Fonds"
-							autodisable="self">
+							autodisable="self"
+							apply="n5.ui.listeners.buttons.mainwnd.AddFondsComposer">
 
 						</button>
 						<button id="newSubfondsBtn" label="Add Subfonds"
-							autodisable="self"/>
+							autodisable="self"
+							apply="n5.ui.listeners.buttons.mainwnd.AddSubfondsComposer" />
 					</treefooter>
 				</treefoot>
 			</tree>
 		</vlayout>
 
 		<vlayout>
-			<tree width="220px" height="350px" zclass="z-filetree">
+			<tree width="220px" height="350px" zclass="z-filetree"
+				apply="n5.ui.listeners.trees.SelectSeriesComposer">
 				<treecols>
 					<treecol label="Series" />
 				</treecols>
@@ -32,7 +37,8 @@
 				<treefoot>
 					<treefooter>
 						<button id="newSeriesBtn" label="Add Series"
-							autodisable="self"/>
+							autodisable="self"
+							apply="n5.ui.listeners.buttons.mainwnd.AddSeriesComposer" />
 					</treefooter>
 				</treefoot>
 			</tree>
@@ -40,7 +46,8 @@
 		</vlayout>
 
 		<vlayout>
-			<tree width="220px" height="350px" zclass="z-dottree">
+			<tree width="220px" height="350px" zclass="z-dottree"
+				apply="n5.ui.listeners.trees.SelectFileComposer">
 				<treecols>
 					<treecol label="Files" />
 				</treecols>
@@ -48,9 +55,11 @@
 				<treefoot>
 					<treefooter>
 						<button id="newFileBtn" label="Add File"
-							autodisable="self"/>
+							autodisable="self"
+							apply="n5.ui.listeners.buttons.mainwnd.AddFileComposer" />
 						<button id="newSubfileBtn" label="Add Subfile"
-							autodisable="false"/>
+							autodisable="false"
+							apply="n5.ui.listeners.buttons.mainwnd.AddSubfileComposer" />
 					</treefooter>
 				</treefoot>
 			</tree>
@@ -66,9 +75,11 @@
 				<treefoot>
 					<treefooter>
 						<button id="addRecordBtn" label="Add Record"
-							autodisable="self"/>
+							autodisable="self"
+							apply="n5.ui.listeners.buttons.mainwnd.AddRecordComposer" />
 						<button id="addDocumentBtn" label="Add Document"
-							autodisable="self"/>
+							autodisable="self"
+							apply="n5.ui.listeners.buttons.mainwnd.AddDocumentComposer" />
 					</treefooter>
 				</treefoot>
 			</tree>

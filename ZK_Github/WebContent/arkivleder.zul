@@ -1,14 +1,12 @@
-<?page title="Noark 5"?>
-<?init class="dots.ui.app.InitGUI"?>
+<?page title="Arkivleder"?>
 <window id="wnd" zclass="z-window-overlapped" border="none"
 	width="100%" height="100%">
 
   <zscript><![CDATA[  
-		desktop.setCurrentDirectory("/user_interface/index"); 
+		desktop.setCurrentDirectory("/user_interface/arkivleder"); 
   ]]></zscript>
 	
 	<include id="includeStyle" src="../style/default.zul" />
 	<include id="includeTemplate" src="../template/full.zul" width="100%" height="100%" />
-
 	
 </window>

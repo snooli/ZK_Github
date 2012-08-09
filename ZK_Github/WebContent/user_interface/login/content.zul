@@ -1,0 +1,25 @@
+
+<hlayout class="content">
+
+    	<vlayout class="content-frame">
+    	
+    		<div class="header">   	
+	    		<hlayout class="">
+					<separator class="header-bar" />
+					<label class="header-title1" value="Logg inn" />
+				</hlayout>
+				
+	            <hlayout spacing="20px" style="margin-top: 20px;">
+	                <label value="Brukernavn :" />
+	                <textbox id="username" width='150px' />
+	            </hlayout>
+	            <hlayout spacing="38px" >
+	                <label value="Passord :" />
+	                <textbox id="password" type="password" width='150px' />
+	            </hlayout>
+            </div>
+            
+        </vlayout>
+	
+</hlayout>
+

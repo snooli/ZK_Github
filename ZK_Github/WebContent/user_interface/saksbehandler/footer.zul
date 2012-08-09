@@ -1,0 +1,21 @@
+<hlayout class="content">
+	
+	<vlayout class = "contFooter">
+		<tree width="220px" height="150px" zclass="z-dottree">
+			<treecols>
+				<treecol class="contHead" label="Mappeinformasjon" style="color: white;"/>
+			</treecols>				
+			<treechildren id="fondsTree4"/>				
+		</tree>
+	</vlayout>
+	
+	<vlayout class = "contFooter">
+		<tree width="220px" height="150px" zclass="z-dottree">
+			<treecols>
+				<treecol class="contHead" label="Registreringsinformasjon" style="color: white;"/>
+			</treecols>				
+			<treechildren id="fondsTree5"/>				
+		</tree>
+	</vlayout>
+
+</hlayout>

@@ -1,0 +1,60 @@
+
+<hlayout class="content">
+
+	<vlayout class="content-frame">
+		<tree width="220px" height="350px" zclass="z-filetree">
+			<treecols>
+				<treecol class="contHead" label="Arkivdel" style="color: white;"/>
+			</treecols>
+			<treechildren id="seriesTree" />
+			<treefoot>
+				<treefooter>
+					<button id="newSeriesBtn" label="Add Series" class="myWhite" mold="trendy"
+						autodisable="self"/>
+					<button id="newCasefileBtn" label="Add Casefile" class="myWhite" mold="trendy"
+						autodisable="self"/>
+				</treefooter>
+			</treefoot>
+		</tree>
+
+	</vlayout>
+
+	<vlayout class="content-frame">
+		<tree width="220px" height="350px" zclass="z-dottree">
+			<treecols>
+				<treecol class="contHead" label="Mappe" style="color: white;"/>
+			</treecols>
+			<treechildren id="filesTree" />
+			<treefoot>
+				<treefooter>
+					<button id="newFileBtn" label="Add File" class="myWhite" mold="trendy"
+						autodisable="self"/>
+					<button id="newSubfileBtn" label="Add Subfile" class="myWhite" mold="trendy"
+						autodisable="false"/>
+				</treefooter>
+			</treefoot>
+		</tree>
+
+	</vlayout>
+
+	<vlayout class="content-frame">
+		<tree width="220px" height="350px" zclass="z-filetree">
+			<treecols>
+				<treecol class="contHead" label="Registrering" style="color: white;" sort="auto"/>
+			</treecols>
+			<treechildren id="recordsTree" />
+			<treefoot>
+				<treefooter>
+					<button id="addRecordBtn" label="Add Record" class="myWhite" mold="trendy"
+						autodisable="self"/>
+					<button id="addDocumentBtn" label="Add Document" class="myWhite" mold="trendy"
+						autodisable="self"/>
+				</treefooter>
+			</treefoot>
+		</tree>		
+
+	</vlayout>
+</hlayout>
+
+
+

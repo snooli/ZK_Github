@@ -2,50 +2,47 @@
                 
 
 .header {
-    background-color: #165379;
-    color: white;
-    padding-left: 106px;
+    width: 260px;
+    height: 130px;
+	color: #165379
+    margin-left: 150px;
+
+	margin: 0 auto;
+	margin-top: 65px;
 }
 .header-bar {
     height: 20px
 }
 .header-title1 {
-    color: white;
+    color: #165379;
     font-family: Tahoma;
-    font-size: 56px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .content {
 	background-color: #165379;
-	padding-left: 4%;
+	padding-left: 13%;
+	padding-top: 5%;
 }
+
+.name {
+    display: inline;
+} 
 
 .content-frame {
-	width: 220px;
-	height: 350px;
+	margin: 0 auto;
+	width: 600px;
+	height: 300px;
 	border: solid 5px #fff;
+	background-color: #fff;
 	-moz-border-radius: 3px;
 	border-radius: 5px;
-	margin-left: 10px;
+	
 }
 
-.contHead {
+.in-cont-head {
 	background-color: #165379;	
-}
-
-.contFooter {
-	width: 220px;
-	height: 100px;
-	border: solid 5px #fff;
-	-moz-border-radius: 3px;
-	border-radius: 5px;
-	margin-left: 10px;
-	margin-top: 5px;
-}
-
-.infoHead {
-	background-color: #165379;
 }
 
 
@@ -61,6 +58,7 @@
 .myWhite {
     width: 93px;
     height: 33px;
+    height: 31px\9;
 }
 .myWhite .z-button-cm {
     height: 26px;
@@ -72,6 +70,7 @@
 }
 .z-button-over .z-button-cm {
     background-position: 0 -26px
+    background: blue;
 }
 .z-button-clk .z-button-cm {
     background-position: 0 -79px                    

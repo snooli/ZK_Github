@@ -1,13 +1,12 @@
 
 <hlayout class="content">
 	
-	<vlayout class="content-frame">
-	
+	<vlayout class="content-frame">	
 		<tree width="220px" height="350px" zclass="z-dottree">
 			<treecols>
-				<treecol class="in-cont-head" label="Arkiv" style="color: white;"/>
+				<treecol class="contHead" label="Arkiv" style="color: white;"/>
 			</treecols>
-			<treechildren id="fondsTree" class="in-cont-foot"/>
+			<treechildren id="fondsTree"/>
 			<treefoot>
 				<treefooter>
 					<button id="newFondsBtn" label="Add Fonds" class="myWhite" mold="trendy"
@@ -17,15 +16,14 @@
 					<button id="newSubfondsBtn" label="Add Subfonds" class="myWhite" mold="trendy"
 						autodisable="self"/>
 				</treefooter>
-			</treefoot>
+			</treefoot>	
 		</tree>
-
 	</vlayout>
 
 	<vlayout class="content-frame">
 		<tree width="220px" height="350px" zclass="z-filetree">
 			<treecols>
-				<treecol class="in-cont-head" label="Arkivdel" style="color: white;"/>
+				<treecol class="contHead" label="Arkivdel" style="color: white;"/>
 			</treecols>
 			<treechildren id="seriesTree" />
 			<treefoot>
@@ -43,7 +41,7 @@
 	<vlayout class="content-frame">
 		<tree width="220px" height="350px" zclass="z-dottree">
 			<treecols>
-				<treecol class="in-cont-head" label="Mappe" style="color: white;"/>
+				<treecol class="contHead" label="Mappe" style="color: white;"/>
 			</treecols>
 			<treechildren id="filesTree" />
 			<treefoot>
@@ -61,7 +59,7 @@
 	<vlayout class="content-frame">
 		<tree width="220px" height="350px" zclass="z-filetree">
 			<treecols>
-				<treecol class="in-cont-head" label="Registrering" style="color: white;" sort="auto"/>
+				<treecol class="contHead" label="Registrering" style="color: white;" sort="auto"/>
 			</treecols>
 			<treechildren id="recordsTree" />
 			<treefoot>
@@ -72,8 +70,10 @@
 						autodisable="self"/>
 				</treefooter>
 			</treefoot>
-		</tree>
+		</tree>		
 
 	</vlayout>
 </hlayout>
+
+
 
