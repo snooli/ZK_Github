@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+
+	<persistence-unit name="n5db">
+		<jta-data-source>java:/n5db</jta-data-source>
+
+		<!-- Entities in the Noark 5 standard -->
+		<class>dots.clb.common.entities.Fonds</class>
+		<class>dots.clb.common.entities.FondsCreator</class>
+		<class>dots.clb.common.entities.Series</class>
+		<class>dots.clb.common.entities.File</class>
+		<class>dots.clb.common.entities.CaseFile</class>
+		<class>dots.clb.common.entities.Record</class>
+		<class>dots.clb.common.entities.BasicRecord</class>
+		<class>dots.clb.common.entities.RegistryEntry</class>
+		<class>dots.clb.common.entities.Class</class>
+		<class>dots.clb.common.entities.ClassificationSystem</class>
+		<class>dots.clb.common.entities.DocumentDescription</class>
+		<class>dots.clb.common.entities.DocumentObject</class>
+		<class>dots.clb.common.entities.Keyword</class>
+
+		<!-- Other entities -->
+		<class>dots.clb.common.entities.StorageLocation</class>
+		<class>dots.clb.common.entities.Author</class>
+		<class>dots.clb.common.entities.ChangeLogEntry</class>
+
+		<properties>
+			<!-- this is to control the auto drop and create of schema -->
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show.sql" value="true" />
+
+			<property name="dialect" value="org.hibernate.dialect.MySQLDialect" />
+
+		</properties>
+	</persistence-unit>
+</persistence>

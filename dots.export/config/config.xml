@@ -1,0 +1,8 @@
+<config>
+
+	<n5address>127.0.0.1</n5address>
+	<n5port>1099</n5port>
+
+	<targetDir>/storage/n5extracts</targetDir>
+
+</config>
